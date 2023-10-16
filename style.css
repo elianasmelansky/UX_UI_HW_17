@@ -21,6 +21,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 9999;
 }
 
 .navbar a {
@@ -46,12 +47,16 @@ body{
     display:flex;
     align-items:center;
     padding: 75 10%;
+    position: relative;
 }
 
 .home-content{
     background: #D8E1FF;
-    max-width: 800px;
+    max-width: 80%;
     padding: 75px;
+    box-shadow: 0px 0px 20px #594157;
+    position: absolute;
+    left: 10%;
 }
 
 .home-content h1{
@@ -123,4 +128,13 @@ body{
     align-items: center;
     font-size: 32px;
     color: #594157;
+}
+
+.adjust-line-height {
+    line-height: 1.5em;
+  }
+
+.img_deg {
+    float: left;
+    padding: 40px;
 }
